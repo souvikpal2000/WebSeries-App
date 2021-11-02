@@ -16,6 +16,7 @@ body{
 }
 h1{
     position: absolute;
+    text-align: center;
 }
 .series{
     display: flex;
@@ -87,7 +88,7 @@ a{
         flex-direction: column;
         align-items: center;
     }
-    .card{
+    .cardOuter{
         width: 80%;
         margin: 20px;
     }
