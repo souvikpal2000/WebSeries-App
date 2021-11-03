@@ -3,19 +3,17 @@
 
 body{
     width: 100%;
-    padding: 0;
+    height: 100vh;
     margin: 0;
     background: rgb(216, 216, 216);
-}
-.heading, .footer{
-    height: 80px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    height: 80px;
     background-color: white;
 }
 h1{
-    position: absolute;
     text-align: center;
 }
 .series{
@@ -23,6 +21,7 @@ h1{
     flex-wrap: wrap;
     justify-content: flex-start;
     margin-top: 1%;
+    margin-bottom: 1%;
 }
 .cardOuter{
     width: 23%;
@@ -76,10 +75,13 @@ a{
     transition: 0.3s;
 }
 .footer{
+    margin-top: auto;
     height: 60px;
+    background-color: white;
 }
 .footer p{
     font-size: 18px;
+    text-align: center;
 }
 
 @media (max-width:768px) {
